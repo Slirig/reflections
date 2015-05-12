@@ -1,0 +1,62 @@
+GitBash commands
+
+vanligt:
+		--global = alla min projekt
+
+
+ls = visa alla filer i den mappen man befinner sig på
+cd = vandra i heirarkien
+mkdir namn = Skapa en folder med namn
+- Man kan skriva in i bach filen om man vill öppna filer med ett speciellt commando, samt
+vilket program man ska öppna med
+		-># echo 'alias subl="C:/Program\ Files/Sublime\ Text\ 2/sublime_text.exe"' >> ~/.bashrc
+	-> tillfälligt används subl för att öppna en fil med sublime text 2
+			->exemepl: subl namn.txt
+
+
+git log = Ser vad för commits som har utförts i ett projekt, börjar med nyaste 
+git diff = Man kan se skilnaden mellan 2 stycken commits genom att använda commit koden som man 
+	kan se om man använder sig av git log
+		-git diff <gammal version> <ny version>
+
+git clone = kan vi klona ett hel repository
+	t.ex. -> git clone https://github.com/udacity/asteroids.git
+
+git checkout = Jag kan använda denna för att gå till en branch eller så kan jag använda denna tillsammans med 
+	en gammal git commit nr och få det som är i repositoryn att gå tillbaka till då, tidigare i tiden
+		-t.ex. Gå tillbaka till tidigare
+				-> git log - hitta commiten
+				-> git checkout commmitNr
+
+
+git init = Skapar en tom git repository i den map du befinner dig i(gitbash)
+
+git add filnamn = lägger till en fil i git staging area, detta är ett stadie 		innan man lägger till filen i sin git repository. Om man skriver git status
+	hamnar dessa under flicken changes to be commited:
+
+	-> git commit = kommer att spara filerna som har blivit tillagda i git
+		staging area och göra en commit av de.
+
+git reset filnamn = Om man har lagt till en fil i staging area i sin
+	repository, kan man ta bort denna där ifrån med git reset filnamn."txt".
+	Filen kommer självklart att ligga kvar i mapen.
+
+
+
+
+
+git config --global push.default upstream
+git config --global merge.conflictstyle diff3
+	
+
+
+Git
+
+Version control
+
+Commits: När du skickar in en commit så gör du en ändring i filen som ligger på servern, samt
+att du skriver vad du har ändrat. Bättre kontroll för vad som har hänt 
+
+repository = flera filer som du vill hålla koll på tillsammans
+	-> finns en gömd .git map i ett repository som innehåller all förändring
+
