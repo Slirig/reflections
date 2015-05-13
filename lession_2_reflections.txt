@@ -12,3 +12,10 @@ Staging area is an invisible area that will hold the files for a commit, while w
 How can you use the staging area to make sure you have one commit per logical change?
 
 By knowing what i am adding to the staging area i can be confident that it is only one logical change before i commit, i can even use git diff to see what is changing from the old to the new. What i am adding and what i have deleted.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches would help me when i dont want to change the orginal file but make test
+changes. This way the orginal files will be kept safe and sound. It will organize in 
+the sens that i can set labels on the branches to see what i am doing in that branch.
