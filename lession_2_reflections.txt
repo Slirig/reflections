@@ -7,3 +7,8 @@ informations for commits that have happend inside the folder. So that i can go b
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 Staging area is an invisible area that will hold the files for a commit, while working directory hold all the files and the repository hold controlls of the files. It offers me the the chance to see what files will be added in a commit before i commit it, this will make me ablo to regret files i dont wont and add other files that i forget.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+By knowing what i am adding to the staging area i can be confident that it is only one logical change before i commit, i can even use git diff to see what is changing from the old to the new. What i am adding and what i have deleted.
