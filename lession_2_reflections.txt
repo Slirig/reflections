@@ -23,4 +23,5 @@ the sens that i can set labels on the branches to see what i am doing in that br
 
 How do the diagrams help you visualize the branch structure?
 
-it will help me see what points in time i can go back to, and it helps me see how were i branched from if it is a side branch. 
+it will help me see what points in time i can go back to, and it helps me see how were i branched from if it is a side branch. And it will help me know which branches will hold which commits
+
