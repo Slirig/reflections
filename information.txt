@@ -74,6 +74,17 @@ i den branchen du befinner dig i(checkout).
 		kan du bara använda kommandot git merge --abort
 
 
+git remote = Används för att skapa och titta vilka remotes ens repository ligger emot
+	-> Utan argument, git remote så ser vi alla remotes som vi har
+	-> För att lägga till en repository på github så använder vi oss utav add
+		t.ex. git remote add <namn> <url> (för att veta vilken repository du refererar till kan det vara smart att ha samna namn här. standard är origin om du bara har en).
+	-> för att veta om url är korrekt kan vi köra git remote -v
+
+git push = tar 2 argument, remote som vi vill skicka förändringen till och namnet på 		den lokala branchen du vill pusha
+	-> t.ex. git push origin master
+
+
+
 
 
 git config --global push.default upstream
