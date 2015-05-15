@@ -18,6 +18,11 @@ git log = Ser vad för commits som har utförts i ett projekt, börjar med nyast
 git diff = Man kan se skilnaden mellan 2 stycken commits genom att använda commit koden som man 
 	kan se om man använder sig av git log
 		-git diff <gammal version> <ny version>
+	-> Om man har ändrat filer i sin repostiry och ännu inte lagt till dessa i en commit, då kan man skriva git diff för att se vad som har förändrats i desa filer som inte har tillagda i någon commit ännu, (jämför med filerna som är sparade som commit) -git diff
+	-> Om man har addat filer och dessa ligger i staging area och man vill jämföra dessa filer i stagin area med de som är commitade tidigare kan man skriva. -git diff --staged
+
+
+
 
 git clone = kan vi klona ett hel repository
 	t.ex. -> git clone https://github.com/udacity/asteroids.git
@@ -43,6 +48,32 @@ git reset filnamn = Om man har lagt till en fil i staging area i sin
 
 
 
+*Branch commands
+
+git branch = utan ett argument so visar detta vilka mina nuvarande brancher är
+	-> den branch som har en * framför är den branchen som du befinner dig på(checkout)
+
+git branch <namn> = kommer skapa en ny branch utifrån den branchen jag befinner mig på
+	för tillfället.
+
+
+git checkout <namn> = kommer förflytta mig till den branchen som har <namnet>
+
+git merge <branch> = Genom att använda sig av git merge kan man slå ihop 2 stycken branches. Man mergar alltid in den branchen eller brancherna som står efter merge in
+i den branchen du befinner dig i(checkout). 
+	-> T.ex. git merge <branch1> kommer merga in branch1 i den branchen du står vid
+			om du vill kan du även ange den branchen du beffiner dig i när du skriver 
+			git merge för att få mer koll på vilka du du slår ihop
+			-> git merge <branch1> <checkout-branch> ordning spelar ingen roll
+
+	-> Du kan även merga 3 branches på detta sätt
+		-> git merge <branch1> <branch2> = kommer merga in dessa 2 brancher i den
+		   branchen du beffiner dig i
+
+	-> OM du vill återställa en merge efter du fått en konflikt eller ångrar du dig
+		kan du bara använda kommandot git merge --abort
+
+
 
 
 git config --global push.default upstream
@@ -50,7 +81,7 @@ git config --global merge.conflictstyle diff3
 	
 
 
-Git
+*Git
 
 Version control
 
