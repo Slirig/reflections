@@ -76,6 +76,7 @@ i den branchen du befinner dig i(checkout).
 
 git remote = Används för att skapa och titta vilka remotes ens repository ligger emot
 	-> Utan argument, git remote så ser vi alla remotes som vi har
+		-> git remote -v , ser vi vart remote leder någonstans (vilka repositorys)
 	-> För att lägga till en repository på github så använder vi oss utav add
 		t.ex. git remote add <namn> <url> (för att veta vilken repository du refererar till kan det vara smart att ha samna namn här. standard är origin om du bara har en).
 	-> för att veta om url är korrekt kan vi köra git remote -v
