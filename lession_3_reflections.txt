@@ -8,3 +8,16 @@ Why might you want to always pull changes manually rather than having Git automa
 if it automaticallt pull all the time, all the changes i have done in my local repository will be delitet and all the work i did was for nothing.
 It can also be bacouse i have made changes to funtions that other ppl have made changes 
 to also, and it will overwrite my changes that i have made.
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Difference between forking and cloning/branching is that it is something you do on another persons repository so that you can get your own copy of it on your own github. This will make you be ablo to change it in anyway licke to.
+
+Cloning is something that you do when you want to clone a already existing repository on github to one in your local computer. This will make a perfect copy local of a repository. 
+
+Branches you do on your own repository and it will make you be ablo to change stuffs in your files from the original files but it will only change the files in that branch you 
+are changing your files in. Sound hard. 
+
+Forking if i want to take somebody elses repository and i want to make changes to it. 
+Cloning if i want to take down a repository to my computer and branching when i want to make a new future but still want to have my old files unchanged until the future is working. 
