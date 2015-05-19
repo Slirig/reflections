@@ -84,6 +84,10 @@ git push = tar 2 argument, remote som vi vill skicka förändringen till och nam
 	-> t.ex. git push origin master
 
 
+git pull = tar 2 argument, remote som du använder dig utav och vilken branch du vill
+		ta hem.
+		-> t.ex. git pull origin master
+
 
 
 
